@@ -1,0 +1,12 @@
+Package: LSRAT
+Title: Longitudinal variant-Set Retrospective Association Test 
+Version: 0.0.0.9000
+Date: 2020-03-04
+Authors@R: person("Weimiao", "Wu", email = "weimiao.wu@yale.edu",
+                  role = c("aut", "cre")) 
+Description: Perform set-based association test for longitudinal traits in genome-wide association studies for genetic rare variants.
+Depends: R (>= 3.5.1), snpStats, LBRAT, GENESIS, plyr, geepack, lme4, nlme, mvtnorm
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2.9000
