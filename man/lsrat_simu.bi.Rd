@@ -25,8 +25,9 @@ lsrat_simu.bi(
 
 \item{snp.count}{Numeric, number of SNPs in each variant set}
 
-\item{intercept}{Logical variable, indicating whether intercept is used in phenotypic traits
-#' @param power Logical variable, indicating whether the phenotype generated under the null model (type I error) or under the alternative model (power test)}
+\item{intercept}{Logical variable, indicating whether intercept is used in phenotypic traits}
+
+\item{power}{Logical variable, indicating whether the phenotype generated under the null model (type I error) or under the alternative model (power test)}
 }
 \value{
 A list object is returned to be used as object for association test

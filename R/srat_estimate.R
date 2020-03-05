@@ -6,13 +6,11 @@
 #' @param time Time covarites matched with phenotype vector
 #' @param y.cov Covariate matrix denoting the covariate variables measured at each time
 #' @param timecov Logical variable, indicating whether the time fixed effect is estimated 
-#' @param corstr String, correlation structure for GEE model, optional values are: 'ar1', 'ind', 'mixture'
-#' @param tol Numeric, tolerance for the iterative estimation in when using mixture correlation structure
-#' 
+#' @param corstr String, correlation structure for GEE model, optional values are: 'ar1', 'ind', 'mixture' 
 #' @return This function returns a list object with model parameters and residuals of the NULL GEE model 
 #' @export
 #' 
-lsrat_est <- function(y.long, time, y.cov, timecov = TRUE, corstr = "ar1",tol = 10^-6){
+lsrat_est <- function(y.long, time, y.cov, timecov = TRUE, corstr = "ar1"){
 
 	# determine binary or continous
     if(length(table(y.long))>2){

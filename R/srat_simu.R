@@ -70,7 +70,7 @@ lsrat_simu.conti<-function(n.sample=5000, n.time=7, par=list(),
 #' @param time_cov Logical variable, indicating whether time effect is included in phenotypic traits
 #' @param snp.count Numeric, number of SNPs in each variant set
 #' @param intercept Logical variable, indicating whether intercept is used in phenotypic traits
-#' #' @param power Logical variable, indicating whether the phenotype generated under the null model (type I error) or under the alternative model (power test)
+#' @param power Logical variable, indicating whether the phenotype generated under the null model (type I error) or under the alternative model (power test)
 #' 
 #' @return A list object is returned to be used as object for association test
 #' @export

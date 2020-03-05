@@ -30,15 +30,13 @@ lsrat.SSD.OneSet_SetIndex = function(SSD.INFO, SetIndex, lsrat_est.obj){
 #'
 #' @param SSD.INFO SSD format information file, output of function "Open_SSD". The genome wide scan are run set by set.
 #' @param lsrat_est.obj ouput from lsrat_est() or rsmmat_est()
-#' @param ... Other options of the LSRAT or RSMMAT test. Deﬁned same as in function "lsrat_test()" or "rsmmat_est()"
+#' @param ... Other options of the LSRAT or RSMMAT test. Defined as same as in function "lsrat_test()" or "rsmmat_est()"
 #' 
 #' 
 #' 
 #' @return reults of the LSRAT test or RSMMAT test. First column contains batchID, second column contains SNP ID, third column concains prospective P-value and forth column contains retrospective P-value
 #' 
 #' @export 
-
-
 lsrat.SSD.All = function(SSD.INFO, lsrat_est.obj, ...){
   N.Set<-SSD.INFO$nSets
   OUT.pvalue<-matrix(NA, N.Set, 12)

@@ -4,7 +4,7 @@
 \alias{lsrat_est}
 \title{GEE NULL model estimation}
 \usage{
-lsrat_est(y.long, time, y.cov, timecov = TRUE, corstr = "ar1", tol = 10^-6)
+lsrat_est(y.long, time, y.cov, timecov = TRUE, corstr = "ar1")
 }
 \arguments{
 \item{y.long}{Long-formatted phenotype vector}
@@ -16,8 +16,6 @@ lsrat_est(y.long, time, y.cov, timecov = TRUE, corstr = "ar1", tol = 10^-6)
 \item{timecov}{Logical variable, indicating whether the time fixed effect is estimated}
 
 \item{corstr}{String, correlation structure for GEE model, optional values are: 'ar1', 'ind', 'mixture'}
-
-\item{tol}{Numeric, tolerance for the iterative estimation in when using mixture correlation structure}
 }
 \value{
 This function returns a list object with model parameters and residuals of the NULL GEE model

@@ -10,7 +10,6 @@ lsrat_test(
   weights = "beta",
   impute.method = "mean",
   GRM = NULL,
-  LD = NULL,
   tests = c("B", "S", "O", "E", "V", "R"),
   B = 5000,
   rho = c(0, 0.5, 1),
