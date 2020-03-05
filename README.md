@@ -7,9 +7,9 @@ LSRAT is an R program that performs retrospective variant-set testing for longit
 
 ### Required software and packages
 
-1. R (http://www.r-project.org/)
+1. R(http://www.r-project.org/)
   
-2. Package snpStats, LBRAT, GENESIS, plyr, geepack, lme4, nlme, mvtnorm
+2. R Packages: snpStats, LBRAT, GENESIS, plyr, geepack, lme4, nlme, mvtnorm
   
 3. PLINK 1.0 or 1.9 (https://www.cog-genomics.org/plink2)
 
