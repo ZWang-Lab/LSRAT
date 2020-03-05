@@ -3,12 +3,18 @@ Type: Package
 Title: Longitudinal variant-Set Retrospective Association Test 
 Version: 0.0.0.9000
 Date: 2020-03-04
-Authors@R: as.person(c(
-    "Weimiao Wu <weimiao.wu@yale.edu> [aut, cre]", 
-    "Zuoheng Wang <zuoheng.wang@yale.edu> [aut]"
-  ))
+Authors@R: 
+  c(person(given = "Weimia",
+           family = "Wu",
+           role = c("aut", "cre"),
+           email = "weimiao.wu@yale.edu"),
+    person(given = "Zuoheng",
+           family = "Wang",
+           role = "aut"))
+Author: Weimiao Wu [aut, cre], Zuoheng Wang [aut]
+Maintainer: Weimiao Wu <weimiao.wu@yale.edu>
 Description: Perform set-based association test for longitudinal traits in genome-wide association studies for genetic rare variants.
-Depends: R (>= 3.5.1), snpStats, LBRAT, GENESIS, plyr, geepack, lme4, nlme, mvtnorm
+Depends: R (>= 3.5.1), snpStats, LBRAT, GENESIS, plyr, geepack, lme4, nlme, mvtnorm, knitr
 License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
